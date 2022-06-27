@@ -1,0 +1,55 @@
+body {
+	background-color: #222222;
+	font-family: Arial, sans-serif;
+	font-size: 1vw;
+}
+
+h1 {
+	color: lightgrey;
+	text-align: center;
+}
+
+h3 {
+	color: lightgrey;	
+	text-align: center;
+}
+
+.box {
+	height: 400px;
+	width: 26%;
+	color: lightgrey;
+	float: left;
+	margin: 20px;
+	padding: 10px;
+	text-align: left;
+	font-family: Arial, sans-serif;
+	line-height: 130%;
+}
+#main_page {
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	height: 30px;
+	width: 93%;
+	text-align: center;
+	font-size: 150%;
+	color: lightgrey;
+	float: left;
+	margin: 20px;
+	padding: 10px;
+}
+
+@media (min-width: 1250px) {
+	#main_page {
+		width: 1200px;
+	}
+}
+@media (max-width: 1249px) {
+	body {
+		font-size: 2vw;
+	}
+}
+
